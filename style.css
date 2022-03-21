@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(166, 162, 162), rgb(80, 80, 80), black);
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.274), rgba(245, 205, 160, 0.73)), url(images/JapanTown.jpg);/*linear-gradient(rgb(166, 162, 162), rgb(80, 80, 80), black);*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -62,7 +62,9 @@ img{ /*This is for my logo height and other parts of cite reads up to here*/
 
 }
 .text-box h1{
+    font-family: 'Poppins', sans-serif;
     font-size: 62px;
+    color: black;
 }
 .text-box p{
     margin: 10px 0 40px;
