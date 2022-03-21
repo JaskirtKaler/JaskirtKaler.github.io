@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/Mercedes.jpg); /* linear-gradient(rgb(166, 162, 162), rgb(80, 80, 80), black) color backgorund*/
+    background-image: url(Images/Mercedes.jpg); /* linear-gradient(rgb(166, 162, 162), rgb(80, 80, 80), black) color backgorund*/
     background-position: center;
     background-size: cover;
     position: relative;
