@@ -42,7 +42,7 @@ img{ /*This is for my logo height and other parts of cite reads up to here*/
     content: '';
     width: 0%;
     height: 2px;
-    background: #a11107;
+    background: white;
     display: block;
     margin: auto;
     transition: 0.5s;

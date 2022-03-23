@@ -51,21 +51,22 @@ img{ /*This is for my logo height and other parts of cite reads up to here*/
     width: 100%;
 
 }
-.text-box{ /* text box for main screen center text */
+.contact{ /* text box for main screen center text */
     width: 90%;
     color: black;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 
 }
-.text-box h1{
+.contact h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 62px;
+    font-size: 52px;
+    color: black;
 }
-.text-box p{
+.contact p{
     font-family: 'Poppins', sans-serif;
     margin: 10px 0 40px;
     font-size: 14px;

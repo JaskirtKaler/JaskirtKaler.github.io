@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.068), rgba(218, 214, 210, 0.048)), url(Images/Mercedes.jpg); /* linear-gradient(rgb(166, 162, 162), rgb(80, 80, 80), black) color backgorund*/
+    background-image: linear-gradient(to top, rgba(205, 171, 248, 0.39), rgba(97, 96, 96, 0.288)), url(Images/Mercedes.jpg); /* linear-gradient(rgb(166, 162, 162), rgb(80, 80, 80), black) color backgorund*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -42,7 +42,7 @@ img{ /*This is for my logo height and other parts of cite reads up to here*/
     content: '';
     width: 0%;
     height: 2px;
-    background: #a11107;
+    background: white;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -69,7 +69,12 @@ img{ /*This is for my logo height and other parts of cite reads up to here*/
 .about p{
     font-family: 'Poppins', sans-serif;
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 17px;
+    color: white;
+}
+.about h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
     color: white;
 }
 .hero-btn{ /* create link box at home page*/
@@ -93,28 +98,6 @@ nav .fa{
     display: none;
 }
 
-/* About */
-.about{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-    color: #fff;
-
-}
-h1{ /* about header for the header font */
-    font-size: 36px;
-    font-weight: 600;
-
-}
-p{ /*  Color for the about text */
-    color: #fff;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-
-}
 .btn-L{ /* link box for about */
     display: inline-block;
     text-decoration: none;
@@ -125,11 +108,47 @@ p{ /*  Color for the about text */
     background: transparent;
     position: relative;
     cursor: pointer;
-    width: 150px;
+    width: 250px;
 }
 .btn-L:hover{ /* hover affect of the about link */
     border: 1px solid #000000;
     background: #0072B1;
+    transition: 1s;
+
+}
+.btn-2{ /* link box for about */
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 250px;
+}
+.btn-2:hover{ /* hover affect of the about link */
+    border: 1px solid #000000;
+    background: #5f6875;
+    transition: 1s;
+
+}
+.btn-3{ /* link box for about */
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 250px;
+}
+.btn-3:hover{ /* hover affect of the about link */
+    border: 1px solid #000000;
+    background: #5865F2;
     transition: 1s;
 
 }
