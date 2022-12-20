@@ -1,57 +1,182 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name = "viewport" content="with = device-width, initial-scale=1.0" >
-    <title>Jaskirt Kaler</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <title>Jaskirt Kaler</title>
 </head>
 <body>
-    <!----Header section/ Main page-->
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="Images/Logo_solid.png"></a>
-             <div class = nav-links id="navLinks">
-                <i class="fa fa-times" onclick = "hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <!--<li><a href="Contact.html">CONTACT</a></li> -->
-                    <li><a href="resume.html">RESUME</a></li>
-                    <li><a href="project.html">PROJECTS</a></li>
-                </ul>
-                <i class="fa fa-bars" onclick = "showMenu()"></i>
+<div class="border">
+
+    <header class="header"> 
+        <!-- top left logo thanks adobe! -->
+     <div class="header-logo-box">
+        <img src="Images/Logo2.gif" alt="header-Logo" class="logo">
+     </div>
+     <!-- title name and btn -->
+    <div class="header-title-name">
+     <h1 class="header-title-name-primary">Jaskirt Kaler</h1>
+     <a href="#about" class="header-title-name-btn header-title-name-btn-white">about me</a> 
+    </div>
+    </header>
+
+    <main>
+        <section class="section-about">
+
+            <div class="section-about__title" id="about">     
+
+
+                <h2 class="section-about__heading-sec">
+                About
+                </h2>
+                <!-- where info would appear when button clicked -->
+                    <div class="section-about__bottom">
+                            <div class="section-about__info">
+                                <!-- model in skills button of info  id= model to hide-->
+                                <div class="section-about__info__model-section" id="models"> 
+                                    <div class="section-about__info__model-section-indiv">
+                                        <a href="#" class="section-about__info__model-section-indiv-technical" id="tech-model">Technical
+                                        </a>
+                                        <a href="#" class="section-about__info__model-section-indiv-softskills" id="soft-model">Soft Skills
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="section-about__info-te" id="tec">
+                                    <span class="section-about__info-te__text">
+                                        <ul class="section-about__info-so__text-1">-Languages: C, Java, Java Script, Bash Shell</ul>
+                                        <ul class="section-about__info-so__text-1">-API's and DOM manipulation</ul>
+                                        <ul class="section-about__info-so__text-1">-Object-oriented Programming</ul>
+                                        <ul class="section-about__info-so__text-1">-HTML, CSS</ul>
+                                        <ul class="section-about__info-so__text-1">-Experience in Unix and Linux systems</ul>
+                                    </span>
+
+                                </div>
+                                <div class="section-about__info-so" id="sof">
+                                    <span class="section-about__info-so__text">
+                                        <ul class="section-about__info-so__text-1">-Microsoft Office</ul>
+                                        <ul class="section-about__info-so__text-1">-Team Player</ul>
+                                        <ul class="section-about__info-so__text-1">-Communication among team members</ul>
+                                        <ul class="section-about__info-so__text-1">-Creative</ul>
+                                        <ul class="section-about__info-so__text-1">-Great in time managment</ul>
+                                    </span>
+                                </div> 
+                                <!-- about tab -->
+                                <div class="section-about__info-ab" id="abo">
+                                    <span class="section-about__info-ab__text">
+                                        Hi, I'm Jaskirt Kaler, Thank you for taking the time for checking out my website. I'm currently a second year at CSUS. I love to learn about Software development. My current interests are backend game development and cyber security for those games.
+                                        In my free time I like to go on drives and listen to music while I game. My current favorite game is Red Dead Redemption 2 where your a cowboy in the 1860's live the last few years of the wild west.
+
+                                    </span>
+                                </div>
+
+                                <!-- contacts tab -->
+                                <div class="section-about__info-co" id="con">
+                                    <li class="section-about__info-co__item">
+                                        <a href="https://www.linkedin.com/in/jaskirt-kaler-93298a1ab/" class="section-about__info-co__link">
+                                            <img src="Images/linkedin.png" alt="" class="section-about__info-co__icon">
+                                            <span class="section-about__info-co__tex">Linkedin</span>
+                                        </a>
+                                    </li>
+                                    <li class="section-about__info-co__item">
+                                        <a href="https://github.com/JaskirtKaler" class="section-about__info-co__link">
+                                            <img src="Images/github.png" alt="" class="section-about__info-co__icon">
+                                            <span class="section-about__info-co__tex">Github</span>
+                                        </a>
+                                    </li>
+
+                                </div>
+
+                                
+
+                            </div>
+
+                        <div class="section-about__tabs">
+
+
+
+
+                            <!-- right pannel button -->
+                                <nav class="side-bar">
+                                    <ul class="side-nav">
+                                        <!-- skill -->
+                                        <li class="side-nav__item">
+                                                <a href="#" class="side-nav__link" id="skill-btn">
+                                                    <img src="Images/unlocked.png" alt="" class="side-nav__icon">
+                                                    <!-- <svg class="side-nav__icon">
+                                                        <use xlink:href="Images/sprite.svg#icon-unlocked"></use>
+                                                    </svg> -->
+                                                        <span class="side-nav__let">Skill</span>
+                                                </a>
+                                        </li>
+
+
+                                          <!-- edu button -->
+                                        <li class="side-nav__item">
+                                            <a href="#" class="side-nav__link" id="about-btn">
+                                                <img src="Images/pencil.png" alt="" class="side-nav__icon">
+                                                <!-- <svg class="side-nav__icon">
+                                                    <use xlink:href="Images/sprite.svg#icon-pencil"></use>
+                                                </svg> -->
+                                                    <span class="side-nav__let">About</span>
+                                            </a>
+                                        </li>
+
+
+                                        <!-- contacts -->
+                                        <li class="side-nav__item">
+                                            <a href="#" class="side-nav__link" id="contacts-btn">
+                                                <img src="Images/mail.png" alt="" class="side-nav__icon">
+                                                <!-- <svg class="side-nav__icon">
+                                                    <use xlink:href="Images/sprite.svg#icon-mail"></use>
+                                                </svg> -->
+                                                    <span class="side-nav__let">contacts</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+
+
+
+
+                            
+                        </div>
+                    </div>
             </div>
-        </nav>
-        <div class = "text-box">
-            <h1>Jaskirt Kaler</h1>
-            <p>Welcome to my website!</p>
-            <a href = "about.html" class = "hero-btn">✍(◔◡◔)</a>
-        </div>
 
 
-        
-    </section>
+            
 
 
-<!----- JavaScript for toggle Menu ----->
-<script>
+        </section>
 
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
 
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-        
-    }
-</script>
+        <!-- quotes section -->
+        <section class="Quotes">
 
+
+        </section>
+
+
+    </main>
+
+
+
+
+</div>
+
+
+<script src="main.js"></script>
 </body>
 
 
