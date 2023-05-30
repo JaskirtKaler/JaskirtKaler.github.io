@@ -12,8 +12,8 @@ const abo = document.getElementById("abo");
 const con = document.getElementById("con");
 
 
-
-
+const gamebtn = document.getElementsByTagName("button");
+const gameSection = document.getElementById("games");
 
 
 btnSkill.addEventListener("click", function a(){ // when skill btn is clicked
@@ -78,12 +78,20 @@ softmodel.addEventListener("click", function e(){
 
 });
 
+// slider 
+
+const slides = document.querySelector(".slide");
+
+slides.forEach((s, i) => s.style.transform = `translateX(${100 * i}%)`) // 0% , 100%, 200%, 300% each slide position
 
 
 
+// projects section
+gamebtn.addEventListener("click", function(f){
+    // const s1coord = gameSection.getBoundingClientRect();
+    console.log("this btn is working");
+    // window.scrollTo(s1coord.left + window.pageXOffset, s1coords.top + window.pageYOffset);
 
 
-
-
-
+});
 
