@@ -1,0 +1,22 @@
+.main{
+    width: 100vw;
+    height: 8vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80%*8vw;
+    height: 80%;
+    padding: 10px;
+}
+.list{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+.list li{
+    list-style-type: none;
+}
