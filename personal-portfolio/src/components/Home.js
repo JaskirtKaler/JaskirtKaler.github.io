@@ -14,7 +14,15 @@ function Home() {
         }}
         remeasureOnWindowResize
       />
-        <div className='home-content'>Home</div> 
+        <div className='home-content'>
+          <div className='home-info'>
+            <div className='home-title'>
+              <h1>Jaskirt Kaler</h1>  
+              <div className='home-contacts'>contancts go here</div>
+            </div>
+
+          </div>
+        </div> 
     </section>
   )
 }

@@ -1,5 +1,6 @@
 .about{
     width: 100vw;
     height: 100vh;
-    background-color: green;
+    padding: 10px;
+    background-color: #242424;
 }
