@@ -5,7 +5,7 @@
     position: relative;
 }
 
-.outer{
+/* .outer{
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -15,10 +15,10 @@
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    z-index: 3;
-}
+} */
 
-.inner{
+
+/* .inner{
     height: 75%;
     width: 75%;
     border-radius: 50%;
@@ -30,27 +30,11 @@
     align-items: center; 
     justify-content: center; 
     z-index: 2;
-}
+    background-color: #242424c4;
+} */
 
 #number{
     font-size: 150%;
     font-weight: 600;
     color: #FFF;
-}
-.circle-svg{
-    position: absolute;
-    z-index: 1;
-    top: 57%;
-    left: 57%;
-    transform: translate(-50%, -50%); /* center the svg */
-    height: 100%;
-    width: 100%;
-}
-.svg-circle{
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 25px; /*12%?*/
-    stroke-dasharray: 472;
-    stroke-dashoffset: 0;
-    position: relative;
 }
