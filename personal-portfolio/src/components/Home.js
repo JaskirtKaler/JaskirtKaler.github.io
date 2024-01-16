@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import VideoCover from 'react-video-cover';
 import vid from '../images/homeBackground.mp4';
+import Circle from './Circle.js'
 function Home() {
   return (
     <section className='home' id='home'>
@@ -20,7 +21,7 @@ function Home() {
               <h1>Jaskirt Kaler</h1>  
               <div className='home-contacts'>contancts go here</div>
             </div>
-
+            <Circle />
           </div>
         </div> 
     </section>

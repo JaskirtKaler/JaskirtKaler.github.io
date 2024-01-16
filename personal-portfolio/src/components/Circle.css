@@ -1,0 +1,56 @@
+.skill{
+    width: 160px; /*Change Circle size here*/
+    height: 160px;
+    /* background-color: lightblue; */
+    position: relative;
+}
+
+.outer{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(255, 255, 255, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 3;
+}
+
+.inner{
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+    box-shadow: 4px 4px 6px -1px rgba(255, 255, 255, 0.2),
+                -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    z-index: 2;
+}
+
+#number{
+    font-size: 150%;
+    font-weight: 600;
+    color: #FFF;
+}
+.circle-svg{
+    position: absolute;
+    z-index: 1;
+    top: 57%;
+    left: 57%;
+    transform: translate(-50%, -50%); /* center the svg */
+    height: 100%;
+    width: 100%;
+}
+.svg-circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 25px; /*12%?*/
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+    position: relative;
+}
